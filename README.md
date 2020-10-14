@@ -3,8 +3,8 @@ email microservice using nodeJs and nodemailer
 
 # npm installs
 
-1. npm install nodemailer
 1. npm install express
+1. npm install nodemailer
 1. npm install body-parser
 
 # how to:
@@ -23,9 +23,11 @@ let transporter = nodemailer.createTransport({
       },
     });
 ```
+
 npm run index.js
 
-sent an http POST request to http://localhost:3000/ with the following sintax:
+send an http POST request to http://localhost:3000/ with the following sintax:
+
 ```JSON
 {
   "email": "1stemail@gmail,com, 2ndemail@hotmail.com",
