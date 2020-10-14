@@ -38,7 +38,7 @@ send an http POST request to http://localhost:3000/ with the following sintax:
 you can add as many comma separated values as you want
 
 # modify the message:
- if you want to modify the message you can change the values at
+To modify the outgoing message, you can change the values inside 'message'
 
 ```javascript
 const message = {
