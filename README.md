@@ -25,7 +25,7 @@ let transporter = nodemailer.createTransport({
 ```
 npm run index.js
 
-sent an http POST request to http://127.0.0.1:3000/ with the following sintax:
+sent an http POST request to http://localhost:3000/ with the following sintax:
 ```JSON
 {
   "email": "1stemail@gmail,com, 2ndemail@hotmail.com",
