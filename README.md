@@ -3,9 +3,9 @@ email microservice using nodeJs and nodemailer
 
 # npm installs
 
-npm install nodemailer
-npm install express
-npm install body-parser
+1. npm install nodemailer
+1. npm install express
+1. npm install body-parser
 
 # how to:
 
